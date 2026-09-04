@@ -29,7 +29,7 @@ def gradiant_decent(objective,derivative, bounds, n_iter,step_size):
         #report progress
         print('>%d f(%s)=%.5f'%(i,solution,solution_eval))
 
-    return[solution,scores]
+    return[solutions,scores]
 #define range for input
 bounds = asarray([[-1.0,1.0]])
 #define total iterations
